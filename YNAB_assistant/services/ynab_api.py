@@ -36,4 +36,3 @@ class YnabAPI:
             return response.json()
         else:
             raise Exception(f"Failed to update transaction category: {response.status_code}")
-
